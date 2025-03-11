@@ -1,0 +1,107 @@
+
+   
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    background-image: url('https://butterfly-conservation.org/sites/default/files/styles/listing/public/2018-03/Adonis%20Blue_Tony%20Cox%202.jpg?itok=C68JFAdA');
+
+}
+
+header {
+    background-color: #d35400;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+header {
+    position: sticky;
+    top: 0; /* Sticks to the top of the page */
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px 0; /* Adds spacing */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Slight hover effect */
+    border-radius: 5px;
+}
